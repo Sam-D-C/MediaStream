@@ -1,6 +1,6 @@
 ﻿namespace MediaStream
 {
-    class MP3
+    class Song
     {
         public string Name;
         public string Cover;
@@ -9,7 +9,7 @@
         public string ReleaseDate;
 
         // Constructor
-        public MP3(string name, string cover, string artist, string description, string releaseDate)
+        public Song(string name, string cover, string artist, string description, string releaseDate)
         {
             Name = name;
             Cover = cover;
