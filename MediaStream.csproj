@@ -8,7 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Source\" />
+      <Compile Remove="Source\**" />
+      <EmbeddedResource Remove="Source\**" />
+      <None Remove="Source\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="TagLibSharp" Version="2.3.0" />
+      <PackageReference Include="vue" Version="2.6.11" />
     </ItemGroup>
 
 </Project>

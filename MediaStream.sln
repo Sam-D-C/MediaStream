@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStream", "MediaStream.csproj", "{501DC578-F968-4495-B307-01D276F6E042}"
 EndProject
 Global
@@ -12,5 +15,11 @@ Global
 		{501DC578-F968-4495-B307-01D276F6E042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{501DC578-F968-4495-B307-01D276F6E042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{501DC578-F968-4495-B307-01D276F6E042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10EEAAA4-602D-45BE-9780-51168FED80C7}
 	EndGlobalSection
 EndGlobal

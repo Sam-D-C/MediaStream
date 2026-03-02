@@ -1,21 +1,12 @@
 ﻿namespace MediaStream
 {
-    class Song
+    public class Song
     {
-        public string Name;
-        public string Cover;
-        public string Artist;
-        public string Description;
-        public string ReleaseDate;
+        public string Name { get; set; } = "";
+        public string Cover { get; set; } = "";
+        public string Artist { get; set; } = "";
+        public string Description { get; set; } = "";
+        public string ReleaseDate { get; set; } = "";
 
-        // Constructor
-        public Song(string name, string cover, string artist, string description, string releaseDate)
-        {
-            Name = name;
-            Cover = cover;
-            Artist = artist;
-            Description = description;
-            ReleaseDate = releaseDate;
-        }
     }
 }
