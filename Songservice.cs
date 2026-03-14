@@ -6,7 +6,7 @@
         private static List<Song> _songs = new();
         private static bool found = false;
 
-        public static void LoadSongs()
+        private static void LoadSongs()
         {
             var files = Directory.GetFiles(_musicPath, "*.mp3");
 
@@ -35,18 +35,14 @@
                 }
             }
         }
-
-        public static List<Song> GetAllSongs()
+        public static void Refresh()
         {
             _songs.Clear();
             LoadSongs();
-            return _songs;
         }
 
         public static void PrintAllSongs()
         {
-            _songs.Clear();
-            LoadSongs();
             Console.WriteLine($"Available Songs [{_songs.Count}]:");
             foreach (var song in _songs)
             {
@@ -57,9 +53,6 @@
 
         public static void GetById(string name)
         {
-            _songs.Clear();
-            LoadSongs();
-
             Console.WriteLine($"Searching for song with Name: {name}");
 
             foreach (var song in _songs)

@@ -4,6 +4,7 @@
     {
         public static void Main()
         {
+            SongService.Refresh();
             SongService.PrintAllSongs();
         }
     }
