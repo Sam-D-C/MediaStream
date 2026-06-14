@@ -59,8 +59,6 @@ Tegelijkertijd was dit een manier om **full-stack development** te leren: een C#
                                                                        │
                                                             ┌──────────┴───────────┐
                                                             │   Bestanden op schijf │
-                                                            │   /Music/*.mp3        │
-                                                            │   /Videos/*.mp4       │
                                                             │   playlists.json      │
                                                             │   settings.json       │
                                                             └──────────────────────┘
@@ -106,9 +104,6 @@ MediaStream/
 │       │   └── style.css                 ← Globale stijlen
 │       ├── vite.config.js                ← Vite configuratie + proxy
 │       └── package.json
-│
-├── Music/                                ← Hier komen de mp3 bestanden
-└── Videos/                               ← Hier komen de mp4/mkv bestanden
 ```
 
 ---
