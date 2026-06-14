@@ -245,9 +245,3 @@ Paden worden opgeslagen in `settings.json` naast de executable. Je kunt ze aanpa
 |------|----------|
 | Muziek | `.mp3` |
 | Video | `.mp4`, `.mkv`, `.webm`, `.avi` |
-
----
-
-## Ontwikkeld door
-
-Sam — als full-stack leerproject, gebouwd van scratch met hulp van Claude (Anthropic).
