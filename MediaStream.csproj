@@ -18,4 +18,10 @@
       <PackageReference Include="vue" Version="2.6.11" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Backend\" />
+      <Folder Include="Frontend\" />
+      <Folder Include="Videos\" />
+    </ItemGroup>
+
 </Project>

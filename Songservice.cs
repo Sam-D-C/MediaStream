@@ -51,7 +51,7 @@
             Console.WriteLine();
         }
 
-        public static void GetById(string name)
+        public static void GetByName(string name)
         {
             Console.WriteLine($"Searching for song with Name: {name}");
 

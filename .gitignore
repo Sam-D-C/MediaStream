@@ -1,8 +1,38 @@
+# === BACKEND (C#) ===
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
-# Visual Studio temporary files
 .vs/
+*.user
+/packages/
+/_ReSharper.Caches/
+riderModule.iml
+
+# Persoonlijke instellingen — bevat jouw lokale paden
+appsettings.json
+settings.json
+
+# Playlists zijn persoonlijk, niet in versiebeheer
+playlists.json
+
+# Gebouwde frontend (wordt gegenereerd met npm run build)
+**/wwwroot/
+
+# Publish output
+publish/
+Publish/
+
+# === FRONTEND (Vue/Node) ===
+node_modules/
+dist/
+*.local
+.env
+.env.*
+
+# === MEDIA ===
 Music/
+Videos/
+
+# === OVERIG ===
+.DS_Store
+Thumbs.db
+.odt
